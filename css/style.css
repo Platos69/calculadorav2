@@ -1,0 +1,49 @@
+body {
+    margin: 2.5%;
+}
+
+input {
+    padding: 10px;
+
+    border-color: #CCC;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+input.value-input {
+    background-color: #EEE;
+
+    width: 50px;
+
+}
+
+input.result-input {
+    background-color: white;
+
+}
+
+
+button {
+    padding: 10px;
+    width: 37px;
+    height: 37px;
+    background-color: #FF8000;
+    border-color: #CCC;
+    border-width: 1px;
+    border-style: none;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+button:active {
+    background-color: #EE5000;
+}
+
+button.bigger-button {
+    width: 50px;
+
+    font-size: 10px; 
+}

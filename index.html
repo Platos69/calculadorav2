@@ -1,0 +1,57 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/index.js"> </script>
+    <title>Exercícios</title>
+</head>
+<body>
+    
+    <div>
+        <input class="value-input" type="text" id="value1+" size="3" />
+        <input class="value-input" type="text" id="value2+" size="3" />
+
+        <button id="+" value="+" onclick="calcular('+')">+</button>
+        =
+        <input class="result-input" type="text" id="resultado+" placeholder="Resultado" size="10" disabled>
+
+        <button class="bigger-button" onclick="limpar('+')">Limpar</button>
+    </div>
+
+    <div>
+        <input class="value-input" type="text" id="value1-" size="3" />
+        <input class="value-input" type="text" id="value2-" size="3" />
+
+        <button id="-" value="-" onclick="calcular('-')">-</button>
+        =
+        <input class="result-input" type="text" id="resultado-" placeholder="Resultado" size="10" disabled>
+
+        <button class="bigger-button" onclick="limpar('-')">Limpar</button>
+    </div>
+
+    <div>
+        <input class="value-input" type="text" id="value1*" size="3" />
+        <input class="value-input" type="text" id="value2*" size="3" />
+
+        <button id="*" value="*" onclick="calcular('*')">*</button>
+        =
+        <input class="result-input" type="text" id="resultado*" placeholder="Resultado" size="10" disabled>
+
+        <button class="bigger-button" onclick="limpar('*')">Limpar</button>
+    </div>
+
+    <div>
+        <input class="value-input" type="text" id="value1/" size="3" />
+        <input class="value-input" type="text" id="value2/" size="3" />
+    
+        <button id="/" value="/" onclick="calcular('/')">/</button>
+        =
+        <input class="result-input" type="text" id="resultado/" placeholder="Resultado" size="10" disabled>
+    
+        <button class="bigger-button" onclick="limpar('/')">Limpar</button>
+    </div>
+
+</body>
+</html>
